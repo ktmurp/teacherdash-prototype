@@ -8,7 +8,7 @@ function AppHeader() {
         width={300}
         src="https://education.mit.edu/wp-content/uploads/2018/06/logoonwhite.png">
         </Image>
-        <Typography.Title style={{fontSize: 24}}>Katie's TEST Dashboard</Typography.Title>
+        <Typography.Title style={{fontSize: 24}}>Katie's Dashboard</Typography.Title>
         <Space>
         <Badge count={7} dot>
             <MailOutlined style={{fontSize: 24}}/>

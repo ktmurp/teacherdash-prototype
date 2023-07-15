@@ -15,12 +15,16 @@ function Students() {
     
     return (<div>
     <Space>
-    <Typography.Title level={4}>Students</Typography.Title>
+    <Typography.Title level={4}>Class</Typography.Title>
     </Space>
     <Table columns={[
         {
         title: "Name",
         dataIndex: 'title',
+        },
+        {
+            title: "Active Time",
+            dataIndex: 'discountPercentage',
         },
         {
             title: "# of Completed",
@@ -36,6 +40,10 @@ function Students() {
         },
         {
             title: "Completion Time",
+            dataIndex: 'discountPercentage',
+        },
+        {
+            title: "Percent Incorrect",
             dataIndex: 'discountPercentage',
         },
     ]}

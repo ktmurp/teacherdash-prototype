@@ -12,7 +12,8 @@ import {
   import { Bar } from 'react-chartjs-2';
 import { useEffect, useState } from "react";
 import { getRevenue, getOrders, getInventory, getCustomers } from "../../API";
-import { toHaveAccessibleDescription } from "@testing-library/jest-dom/matchers";
+//import { toHaveAccessibleDescription } from "@testing-library/jest-dom/matchers";
+
 
   ChartJS.register(
     CategoryScale,
